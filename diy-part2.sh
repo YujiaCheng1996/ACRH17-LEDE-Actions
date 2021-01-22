@@ -10,8 +10,8 @@
 # Description: OpenWrt DIY script part 2 (After Update feeds)
 #
 
-#KERNEL 5.4
-sed -i 's/KERNEL_PATCHVER:=4.19/KERNEL_PATCHVER:=5.4/g' target/linux/ipq40xx/Makefile
+# 喜大普奔 官方已默认KERNEL 5.4
+#sed -i 's/KERNEL_PATCHVER:=4.19/KERNEL_PATCHVER:=5.4/g' target/linux/ipq40xx/Makefile
 # Modify default IP
 sed -i 's/192.168.1.1/192.168.50.1/g' package/base-files/files/bin/config_generate
 # 获取Lienol-package
