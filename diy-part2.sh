@@ -32,7 +32,4 @@ pushd package/lean
 rm -rf luci-theme-argon
 git clone -b 18.06 https://github.com/jerrykuku/luci-theme-argon luci-theme-argon
 git clone https://github.com/jerrykuku/luci-app-argon-config luci-app-argon-config
-# 清除旧版luci-app-adguardhome并拉取最新版
-rm -rf luci-app-adguardhome
-git clone https://github.com/kongfl888/luci-app-adguardhome luci-app-adguardhome
 popd
